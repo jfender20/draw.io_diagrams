@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T05:47:41.426Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="uhhikfRIVNVuZJomkGN5" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T05:02:26.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="NQt6kTvqJVRuVNbUGwSn" version="21.7.4" type="github">
   <diagram name="Page-1" id="lKCkXWlfj6a3HGJLh-aU">
     <mxGraphModel dx="1242" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VwGYAgdSjDB-pl6obw9x-1" value="&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Build Engineer plugs firewall ZTP interfaces (Normally WAN1, WAN2) into ports set to point to the proper FortiManager with DHCP options&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Build Engineer plugs station switches into DHCP ports of some sort (Still working this portion out)&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;User logs into Tower and initiates Station provisioning workflow&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VwGYAgdSjDB-pl6obw9x-2" value="Station Firewall checks into FortiManager and shows up as an Unauthorized device in the Root adom" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="70" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VwGYAgdSjDB-pl6obw9x-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VwGYAgdSjDB-pl6obw9x-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="130" as="sourcePoint" />
+            <mxPoint x="460" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
